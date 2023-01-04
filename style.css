@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* body{
+    margin: 0;
+    padding: 0;
+    background-color: lightsteelblue;
+    font-family: 'Poppins',sans-serif;    
+    /* color: #fff; */
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 10px; */
+}
+
+.wrapper {
+    padding: 20px;
+    width: 1200px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222;
+}
+
+.banner {
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+    padding: 20px;
+    text-transform: capitalize;
+}
+
+.name {
+    font-weight: 400;
+    color: #fff;
+}
+
+.last {
+    color: crimson;
+    font-weight: 400;
+    padding-left: 8px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    text-transform: capitalize;
+    padding: 20px;
+}
+
+.navbar li {
+    list-style-type: none;
+}
+
+.navbar li a{
+    padding: 30px;
+    text-decoration: none;
+    color: #fff;
+    /* padding-left: 20px; */
+}
+
+.navbar li a:hover{
+    color: crimson;
+    transition: all .3s ease-in-out;
+}
+
+#transaksi {
+    background-color: crimson;
+    padding: 10px;
+}
+
+#transaksi:hover{
+    color: white;
+}
+
+button {
+    font-size: 18px;
+    background-color: crimson;
+    color: #fff;
+    padding: 15px;
+    border-radius: 55px;
+    border: none;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+.login {
+    margin-left: 10px;
+    font-size: 18px;
+    border: none;
+}
